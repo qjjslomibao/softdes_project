@@ -1,0 +1,41 @@
+/* src/styles/StatusIndicators.css */
+.status-indicators {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .status-header {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .status-header-item {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Space between Good and Warning */
+  }
+  
+  .status-indicator {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; /* Space between indicators */
+  }
+  
+  .status-light {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-right: 8px;
+    display: inline-block;
+  }
+  
+  .status-light.good {
+    background-color: green;
+  }
+  
+  .status-light.warning {
+    background-color: red;
+  }
+  
